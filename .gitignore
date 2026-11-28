@@ -221,3 +221,18 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# IDE
+.idea/
+.vscode/
+
+# Local data
+data/*
+!data/README.md
+
+# Model checkpoints
+*.pt
+*.pth
+*.ckpt
+
+# Environment variables
+.env
